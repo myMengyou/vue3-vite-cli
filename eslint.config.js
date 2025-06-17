@@ -51,6 +51,12 @@ export default [
     },
     rules: {
       'vue/require-default-prop': 'off',
+      'vue/multi-word-component-names': [
+        'error',
+        {
+          ignores: ['index'],
+        },
+      ],
     },
   },
 
